@@ -1,0 +1,31 @@
+name: Build and transport checks
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  adapter-and-fixtures:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 26
+      - run: npm install --global pnpm@10.18.3
+      - run: npm test
+      - run: npm run build
+        env:
+          TURBO_TELEMETRY_DISABLED: '1'
+      - run: npm ci --prefix fixtures/vue && npm run build --prefix fixtures/vue
+      - run: npm ci --prefix fixtures/nuxt && npm run build --prefix fixtures/nuxt
+        env:
+          NUXT_TELEMETRY_DISABLED: '1'
+  macos-container:
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 26
+      - run: npm install --global pnpm@10.18.3
+      - run: npm run build && npm run package:macos
+      - run: xcodebuild -project 'dist/macos/Vue Nuxt Devtools/Vue Nuxt Devtools.xcodeproj' -scheme 'Vue Nuxt Devtools' -configuration Debug -derivedDataPath dist/DerivedData CODE_SIGNING_ALLOWED=NO build

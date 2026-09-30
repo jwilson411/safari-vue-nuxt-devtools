@@ -1,0 +1,424 @@
+
+> safari-vue-nuxt-devtools@0.1.0 build
+> node scripts/build.mjs
+
+HEAD is now at 4419695 chore: release v8.2.1
+Scope: all 22 workspace projects
+Lockfile is up to date, resolution step is skipped
+Already up to date
+
+. prepare$ simple-git-hooks
+. prepare: [INFO] Successfully set the pre-commit with command: pnpm lint-staged
+. prepare: [INFO] Successfully set all git hooks
+. prepare: Done
+Done in 1.6s using pnpm v10.18.3
+
+> @vue/devtools-monorepo@7.3.2 build:chrome-extension <project>/.upstream/vue-devtools
+> turbo build --filter=./packages/chrome-extension...
+
+turbo 2.5.8
+
+• Packages in scope: @vue/devtools-chrome-extension, @vue/devtools-core, @vue/devtools-kit, @vue/devtools-shared
+• Running build in 4 packages
+• Remote caching disabled
+@vue/devtools-shared:build: cache hit, replaying logs 6bbe231f3c846e76
+@vue/devtools-shared:build: 
+@vue/devtools-shared:build: > @vue/devtools-shared@8.2.1 build <project>/.upstream/vue-devtools/packages/shared
+@vue/devtools-shared:build: > tsdown
+@vue/devtools-shared:build: 
+@vue/devtools-shared:build: ℹ tsdown v0.21.2 powered by rolldown v1.0.0-rc.9
+@vue/devtools-shared:build: ℹ config file: <project>/.upstream/vue-devtools/packages/shared/tsdown.config.ts 
+@vue/devtools-shared:build: ℹ entry: src/index.ts
+@vue/devtools-shared:build: ℹ tsconfig: ../../tsconfig.json
+@vue/devtools-shared:build: ℹ Build start
+@vue/devtools-shared:build: ℹ Cleaning 4 files
+@vue/devtools-shared:build: ℹ Hint: consider adding deps.onlyBundle option to avoid unintended bundling of dependencies, or set deps.onlyBundle: false to disable this hint.
+@vue/devtools-shared:build: See more at https://tsdown.dev/options/dependencies#deps-onlybundle
+@vue/devtools-shared:build: Detected dependencies in bundle:
+@vue/devtools-shared:build: - rfdc
+@vue/devtools-shared:build: ℹ [CJS] dist/index.cjs  10.62 kB │ gzip: 2.72 kB
+@vue/devtools-shared:build: ℹ [CJS] 1 files, total: 10.62 kB
+@vue/devtools-shared:build: ℹ [CJS] dist/index.d.cts  2.05 kB │ gzip: 0.78 kB
+@vue/devtools-shared:build: ℹ [CJS] 1 files, total: 2.05 kB
+@vue/devtools-shared:build: ✔ Build complete in 491ms
+@vue/devtools-shared:build: ℹ Hint: consider adding deps.onlyBundle option to avoid unintended bundling of dependencies, or set deps.onlyBundle: false to disable this hint.
+@vue/devtools-shared:build: See more at https://tsdown.dev/options/dependencies#deps-onlybundle
+@vue/devtools-shared:build: Detected dependencies in bundle:
+@vue/devtools-shared:build: - rfdc
+@vue/devtools-shared:build: ℹ [ESM] dist/index.js    9.97 kB │ gzip: 2.59 kB
+@vue/devtools-shared:build: ℹ [ESM] dist/index.d.ts  2.05 kB │ gzip: 0.78 kB
+@vue/devtools-shared:build: ℹ [ESM] 2 files, total: 12.02 kB
+@vue/devtools-shared:build: ✔ Build complete in 492ms
+@vue/devtools-kit:build: cache hit, replaying logs 8db7865b0f63e9da
+@vue/devtools-kit:build: 
+@vue/devtools-kit:build: > @vue/devtools-kit@8.2.1 build <project>/.upstream/vue-devtools/packages/devtools-kit
+@vue/devtools-kit:build: > tsdown --clean
+@vue/devtools-kit:build: 
+@vue/devtools-kit:build: ℹ tsdown v0.21.2 powered by rolldown v1.0.0-rc.9
+@vue/devtools-kit:build: ℹ config file: <project>/.upstream/vue-devtools/packages/devtools-kit/tsdown.config.ts 
+@vue/devtools-kit:build: ℹ entry: src/index.ts
+@vue/devtools-kit:build: ℹ tsconfig: ../../tsconfig.json
+@vue/devtools-kit:build: ℹ Build start
+@vue/devtools-kit:build: ℹ Cleaning 4 files
+@vue/devtools-kit:build: ℹ Hint: consider adding deps.onlyBundle option to avoid unintended bundling of dependencies, or set deps.onlyBundle: false to disable this hint.
+@vue/devtools-kit:build: See more at https://tsdown.dev/options/dependencies#deps-onlybundle
+@vue/devtools-kit:build: Detected dependencies in bundle:
+@vue/devtools-kit:build: - speakingurl
+@vue/devtools-kit:build: - superjson
+@vue/devtools-kit:build: - is-what
+@vue/devtools-kit:build: - copy-anything
+@vue/devtools-kit:build: ℹ [CJS] dist/index.cjs  179.96 kB │ gzip: 43.58 kB
+@vue/devtools-kit:build: ℹ [CJS] 1 files, total: 179.96 kB
+@vue/devtools-kit:build: ℹ [CJS] dist/index.d.cts  45.44 kB │ gzip: 8.70 kB
+@vue/devtools-kit:build: ℹ [CJS] 1 files, total: 45.44 kB
+@vue/devtools-kit:build: ✔ Build complete in 767ms
+@vue/devtools-kit:build: ℹ Hint: consider adding deps.onlyBundle option to avoid unintended bundling of dependencies, or set deps.onlyBundle: false to disable this hint.
+@vue/devtools-kit:build: See more at https://tsdown.dev/options/dependencies#deps-onlybundle
+@vue/devtools-kit:build: Detected dependencies in bundle:
+@vue/devtools-kit:build: - speakingurl
+@vue/devtools-kit:build: - superjson
+@vue/devtools-kit:build: - is-what
+@vue/devtools-kit:build: - copy-anything
+@vue/devtools-kit:build: ℹ [ESM] dist/index.js    174.63 kB │ gzip: 43.14 kB
+@vue/devtools-kit:build: ℹ [ESM] dist/index.d.ts   45.44 kB │ gzip:  8.70 kB
+@vue/devtools-kit:build: ℹ [ESM] 2 files, total: 220.07 kB
+@vue/devtools-kit:build: ✔ Build complete in 774ms
+@vue/devtools-core:build: cache hit, replaying logs be7128b96e4757ca
+@vue/devtools-core:build: 
+@vue/devtools-core:build: > @vue/devtools-core@8.2.1 build <project>/.upstream/vue-devtools/packages/core
+@vue/devtools-core:build: > tsdown --clean
+@vue/devtools-core:build: 
+@vue/devtools-core:build: ℹ tsdown v0.21.2 powered by rolldown v1.0.0-rc.9
+@vue/devtools-core:build: ℹ config file: <project>/.upstream/vue-devtools/packages/core/tsdown.config.ts 
+@vue/devtools-core:build: ℹ entry: src/index.ts
+@vue/devtools-core:build: ℹ tsconfig: ../../tsconfig.json
+@vue/devtools-core:build: ℹ Build start
+@vue/devtools-core:build: ℹ Cleaning 4 files
+@vue/devtools-core:build: ℹ Hint: consider adding deps.onlyBundle option to avoid unintended bundling of dependencies, or set deps.onlyBundle: false to disable this hint.
+@vue/devtools-core:build: See more at https://tsdown.dev/options/dependencies#deps-onlybundle
+@vue/devtools-core:build: Detected dependencies in bundle:
+@vue/devtools-core:build: - hookable
+@vue/devtools-core:build: ℹ [CJS] dist/index.cjs  18.60 kB │ gzip: 4.39 kB
+@vue/devtools-core:build: ℹ [CJS] 1 files, total: 18.60 kB
+@vue/devtools-core:build: ℹ Hint: consider adding deps.onlyBundle option to avoid unintended bundling of dependencies, or set deps.onlyBundle: false to disable this hint.
+@vue/devtools-core:build: See more at https://tsdown.dev/options/dependencies#deps-onlybundle
+@vue/devtools-core:build: Detected dependencies in bundle:
+@vue/devtools-core:build: - hookable
+@vue/devtools-core:build: ℹ [CJS] dist/index.d.cts  11.41 kB │ gzip: 2.66 kB
+@vue/devtools-core:build: ℹ [CJS] 1 files, total: 11.41 kB
+@vue/devtools-core:build: ✔ Build complete in 692ms
+@vue/devtools-core:build: ℹ [ESM] dist/index.js    17.10 kB │ gzip: 4.30 kB
+@vue/devtools-core:build: ℹ [ESM] dist/index.d.ts  11.41 kB │ gzip: 2.66 kB
+@vue/devtools-core:build: ℹ [ESM] 2 files, total: 28.51 kB
+@vue/devtools-core:build: ✔ Build complete in 693ms
+@vue/devtools-ui:build: cache hit, replaying logs dd931973673f7155
+@vue/devtools-ui:build: 
+@vue/devtools-ui:build: > @vue/devtools-ui@8.2.1 build <project>/.upstream/vue-devtools/packages/ui
+@vue/devtools-ui:build: > tsx ./scripts/update-icons.ts && vite build
+@vue/devtools-ui:build: 
+@vue/devtools-ui:build: No need to update ic icons
+@vue/devtools-ui:build: vite v7.1.10 building for production...
+@vue/devtools-ui:build: transforming...
+@vue/devtools-ui:build: ✓ 56 modules transformed.
+@vue/devtools-ui:build: rendering chunks...
+@vue/devtools-ui:build: 
+@vue/devtools-ui:build: [vite:dts] Start generate declaration files...
+@vue/devtools-ui:build: [96msrc/components/Select.vue[0m:[93m36[0m:[93m7[0m - [91merror[0m[90m TS7022: [0m'slots' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.
+@vue/devtools-ui:build: 
+@vue/devtools-ui:build: [7m36[0m const slots = useSlots()
+@vue/devtools-ui:build: [7m  [0m [91m      ~~~~~[0m
+@vue/devtools-ui:build: [96msrc/components/Select.vue[0m:[93m61[0m:[93m3[0m - [91merror[0m[90m TS7022: [0m'__VLS_1' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.
+@vue/devtools-ui:build: 
+@vue/devtools-ui:build: [7m 61[0m   <VueDropdown
+@vue/devtools-ui:build: [7m   [0m [91m  ~~~~~~~~~~~~[0m
+@vue/devtools-ui:build: [7m 62[0m     :label="label"
+@vue/devtools-ui:build: [7m   [0m [91m~~~~~~~~~~~~~~~~~~[0m
+@vue/devtools-ui:build: [7m...[0m 
+@vue/devtools-ui:build: [7m104[0m     </template>
+@vue/devtools-ui:build: [7m   [0m [91m~~~~~~~~~~~~~~~[0m
+@vue/devtools-ui:build: [7m105[0m   </VueDropdown>
+@vue/devtools-ui:build: [7m   [0m [91m~~~~~~~~~~~~~~~~[0m
+@vue/devtools-ui:build: 
+@vue/devtools-ui:build: computing gzip size...
+@vue/devtools-ui:build: [vite:dts] Declaration files built in 1200ms.
+@vue/devtools-ui:build: 
+@vue/devtools-ui:build: dist/style.css                    4.95 kB │ gzip:   1.04 kB
+@vue/devtools-ui:build: dist/uno.css                     35.15 kB │ gzip:   6.36 kB
+@vue/devtools-ui:build: dist/theme.js                     4.07 kB │ gzip:   1.53 kB
+@vue/devtools-ui:build: dist/index.js                    36.49 kB │ gzip:   9.55 kB
+@vue/devtools-ui:build: dist/ic-icons-data-B4q1VTSq.js  655.36 kB │ gzip: 191.54 kB
+@vue/devtools-ui:build: dist/style.css                     4.95 kB │ gzip:   1.04 kB
+@vue/devtools-ui:build: dist/uno.css                      35.15 kB │ gzip:   6.36 kB
+@vue/devtools-ui:build: dist/theme.cjs                     3.26 kB │ gzip:   1.40 kB
+@vue/devtools-ui:build: dist/index.cjs                    29.82 kB │ gzip:   8.53 kB
+@vue/devtools-ui:build: dist/ic-icons-data-G1Zhc3L0.cjs  646.60 kB │ gzip: 191.14 kB
+@vue/devtools-ui:build: ✓ built in 1.58s
+@vue/devtools-applet:build: cache hit, replaying logs 4d3aa8fb8357eed0
+@vue/devtools-applet:build: 
+@vue/devtools-applet:build: > @vue/devtools-applet@8.2.1 build <project>/.upstream/vue-devtools/packages/applet
+@vue/devtools-applet:build: > vite build
+@vue/devtools-applet:build: 
+@vue/devtools-applet:build: vite v7.1.10 building for production...
+@vue/devtools-applet:build: transforming...
+@vue/devtools-applet:build: ✓ 97 modules transformed.
+@vue/devtools-applet:build: rendering chunks...
+@vue/devtools-applet:build: 
+@vue/devtools-applet:build: [vite:dts] Start generate declaration files...
+@vue/devtools-applet:build: [96msrc/modules/components/index.vue[0m:[93m1390[0m:[93m1[0m - [91merror[0m[90m TS2742: [0mThe inferred type of 'default' cannot be named without a reference to '.pnpm/vue@2.7.16/node_modules/vue'. This is likely not portable. A type annotation is necessary.
+@vue/devtools-applet:build: 
+@vue/devtools-applet:build: [7m1390[0m export default (await import('vue')).defineComponent({
+@vue/devtools-applet:build: [7m    [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+@vue/devtools-applet:build: [7m1391[0m setup() {
+@vue/devtools-applet:build: [7m    [0m [91m~~~~~~~~~[0m
+@vue/devtools-applet:build: [7m ...[0m 
+@vue/devtools-applet:build: [7m1397[0m __typeEl: {} as __VLS_TemplateResult['rootEl'],
+@vue/devtools-applet:build: [7m    [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+@vue/devtools-applet:build: [7m1398[0m });
+@vue/devtools-applet:build: [7m    [0m [91m~~~[0m
+@vue/devtools-applet:build: [96msrc/modules/components/index.vue[0m:[93m1390[0m:[93m1[0m - [91merror[0m[90m TS2742: [0mThe inferred type of 'default' cannot be named without a reference to '.pnpm/vue@2.7.16/node_modules/vue/types/v3-component-public-instance'. This is likely not portable. A type annotation is necessary.
+@vue/devtools-applet:build: 
+@vue/devtools-applet:build: [7m1390[0m export default (await import('vue')).defineComponent({
+@vue/devtools-applet:build: [7m    [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+@vue/devtools-applet:build: [7m1391[0m setup() {
+@vue/devtools-applet:build: [7m    [0m [91m~~~~~~~~~[0m
+@vue/devtools-applet:build: [7m ...[0m 
+@vue/devtools-applet:build: [7m1397[0m __typeEl: {} as __VLS_TemplateResult['rootEl'],
+@vue/devtools-applet:build: [7m    [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+@vue/devtools-applet:build: [7m1398[0m });
+@vue/devtools-applet:build: [7m    [0m [91m~~~[0m
+@vue/devtools-applet:build: [96msrc/modules/components/index.vue[0m:[93m1390[0m:[93m1[0m - [91merror[0m[90m TS2742: [0mThe inferred type of 'default' cannot be named without a reference to '.pnpm/vue@2.7.16/node_modules/vue/types/vue'. This is likely not portable. A type annotation is necessary.
+@vue/devtools-applet:build: 
+@vue/devtools-applet:build: [7m1390[0m export default (await import('vue')).defineComponent({
+@vue/devtools-applet:build: [7m    [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+@vue/devtools-applet:build: [7m1391[0m setup() {
+@vue/devtools-applet:build: [7m    [0m [91m~~~~~~~~~[0m
+@vue/devtools-applet:build: [7m ...[0m 
+@vue/devtools-applet:build: [7m1397[0m __typeEl: {} as __VLS_TemplateResult['rootEl'],
+@vue/devtools-applet:build: [7m    [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+@vue/devtools-applet:build: [7m1398[0m });
+@vue/devtools-applet:build: [7m    [0m [91m~~~[0m
+@vue/devtools-applet:build: 
+@vue/devtools-applet:build: computing gzip size...
+@vue/devtools-applet:build: dist/index.css  100.17 kB │ gzip: 18.16 kB
+@vue/devtools-applet:build: dist/index.js   130.35 kB │ gzip: 33.04 kB
+@vue/devtools-applet:build: [vite:dts] Declaration files built in 1039ms.
+@vue/devtools-applet:build: 
+@vue/devtools-applet:build: dist/index.css  100.17 kB │ gzip: 18.16 kB
+@vue/devtools-applet:build: dist/index.cjs  103.34 kB │ gzip: 29.36 kB
+@vue/devtools-applet:build: ✓ built in 2.10s
+@vue/devtools-client:build: cache hit, replaying logs a84d3d9f3e60f9dd
+@vue/devtools-client:build: 
+@vue/devtools-client:build: > @vue/devtools-client@8.2.1 build <project>/.upstream/vue-devtools/packages/client
+@vue/devtools-client:build: > tsx ./scripts/pre-build.ts && (nr build:lib & vite build)
+@vue/devtools-client:build: 
+@vue/devtools-client:build: 🎉 Pre-build: removed client bundles successfully.
+@vue/devtools-client:build: 
+@vue/devtools-client:build: (node:93260) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+@vue/devtools-client:build: (Use `node --trace-deprecation ...` to show where the warning was created)
+@vue/devtools-client:build: 
+@vue/devtools-client:build: > @vue/devtools-client@8.2.1 build:lib <project>/.upstream/vue-devtools/packages/client
+@vue/devtools-client:build: > vite build --config vite.lib.config.ts
+@vue/devtools-client:build: 
+@vue/devtools-client:build: vite v7.1.10 building for production...
+@vue/devtools-client:build: transforming...
+@vue/devtools-client:build: vite v7.1.10 building for production...
+@vue/devtools-client:build: transforming...
+@vue/devtools-client:build: ✓ 900 modules transformed.
+@vue/devtools-client:build: ✓ 898 modules transformed.
+@vue/devtools-client:build: rendering chunks...
+@vue/devtools-client:build: rendering chunks...
+@vue/devtools-client:build: computing gzip size...
+@vue/devtools-client:build: dist/index.html                                                            0.53 kB │ gzip:   0.32 kB
+@vue/devtools-client:build: dist/assets/timeline-BZZEyhA7.css                                          0.30 kB │ gzip:   0.22 kB
+@vue/devtools-client:build: dist/assets/SectionBlock-BYDDTsu3.css                                      0.31 kB │ gzip:   0.16 kB
+@vue/devtools-client:build: dist/assets/index-BmFftAtl.css                                            99.67 kB │ gzip:  18.13 kB
+@vue/devtools-client:build: dist/assets/index-hjC9Y1mh.css                                           131.22 kB │ gzip:  23.10 kB
+@vue/devtools-client:build: dist/assets/pinia-Cj67pa1-.js                                              0.18 kB │ gzip:   0.16 kB
+@vue/devtools-client:build: dist/assets/router-BOoR2Ld0.js                                             0.33 kB │ gzip:   0.26 kB
+@vue/devtools-client:build: dist/assets/IconTitle.vue_vue_type_script_setup_true_lang-DtSjptCf.js      0.36 kB │ gzip:   0.27 kB
+@vue/devtools-client:build: dist/assets/components-BW-kS5HZ.js                                         0.39 kB │ gzip:   0.27 kB
+@vue/devtools-client:build: dist/assets/custom-tab-view-k2HobXFh.js                                    0.46 kB │ gzip:   0.32 kB
+@vue/devtools-client:build: dist/assets/custom-inspector-tab-view-DHVxRIqk.js                          1.00 kB │ gzip:   0.62 kB
+@vue/devtools-client:build: dist/assets/SectionBlock-7SkqOcQ6.js                                       1.82 kB │ gzip:   0.94 kB
+@vue/devtools-client:build: dist/assets/diff-D97Zzqfu.js                                               2.57 kB │ gzip:   0.69 kB
+@vue/devtools-client:build: dist/assets/json-Cp-IABpG.js                                               2.82 kB │ gzip:   0.78 kB
+@vue/devtools-client:build: dist/assets/timeline-LmOqjGX5.js                                           4.85 kB │ gzip:   2.09 kB
+@vue/devtools-client:build: dist/assets/pages-dP6ceExB.js                                              6.75 kB │ gzip:   2.90 kB
+@vue/devtools-client:build: dist/assets/settings-BiP9Fx_9.js                                           6.87 kB │ gzip:   2.59 kB
+@vue/devtools-client:build: dist/assets/vue-html-zSiQ3dJi.js                                           8.63 kB │ gzip:   1.75 kB
+@vue/devtools-client:build: dist/assets/overview-m_4eHqJH.js                                          10.47 kB │ gzip:   4.22 kB
+@vue/devtools-client:build: dist/assets/yaml-Buea-lGh.js                                              10.51 kB │ gzip:   2.26 kB
+@vue/devtools-client:build: dist/assets/vitesse-light-CVO1_9PV.js                                     13.62 kB │ gzip:   3.06 kB
+@vue/devtools-client:build: dist/assets/vitesse-dark-D0r3Knsf.js                                      13.76 kB │ gzip:   3.08 kB
+@vue/devtools-client:build: dist/assets/vue-CYH3TOzo.js                                               21.80 kB │ gzip:   2.88 kB
+@vue/devtools-client:build: dist/assets/assets-Df8abAAp.js                                            21.85 kB │ gzip:   8.35 kB
+@vue/devtools-client:build: dist/assets/vue-apis-DJBctb31.js                                          30.42 kB │ gzip:   3.56 kB
+@vue/devtools-client:build: dist/assets/shellscript-Yzrsuije.js                                       41.48 kB │ gzip:   6.10 kB
+@vue/devtools-client:build: dist/assets/css-DPfMkruS.js                                               49.02 kB │ gzip:  11.85 kB
+@vue/devtools-client:build: dist/assets/html-B8pBdPMQ.js                                              57.25 kB │ gzip:  11.75 kB
+@vue/devtools-client:build: dist/assets/javascript-BMMyXqK5.js                                       174.82 kB │ gzip:  16.59 kB
+@vue/devtools-client:build: dist/assets/typescript-DlfHMoPT.js                                       181.07 kB │ gzip:  16.10 kB
+@vue/devtools-client:build: dist/assets/graph-BqaU2KfH.js                                          1,190.80 kB │ gzip: 316.97 kB
+@vue/devtools-client:build: dist/assets/index-srLXTrYs.js                                          3,173.38 kB │ gzip: 942.31 kB
+@vue/devtools-client:build: ✓ built in 3.97s
+@vue/devtools-client:build: computing gzip size...
+@vue/devtools-client:build: dist/devtools-client-lib/devtools-panel.css                                           193.69 kB │ gzip:    34.80 kB
+@vue/devtools-client:build: dist/devtools-client-lib/devtools-panel.js                                              0.22 kB │ gzip:     0.16 kB
+@vue/devtools-client:build: dist/devtools-client-lib/pinia-BSrNyeiS.js                                              0.24 kB │ gzip:     0.19 kB
+@vue/devtools-client:build: dist/devtools-client-lib/router-B5dcvlln.js                                             0.43 kB │ gzip:     0.30 kB
+@vue/devtools-client:build: dist/devtools-client-lib/components-DCaJttPK.js                                         0.53 kB │ gzip:     0.31 kB
+@vue/devtools-client:build: dist/devtools-client-lib/IconTitle.vue_vue_type_script_setup_true_lang-B3gwnwUY.js      0.53 kB │ gzip:     0.34 kB
+@vue/devtools-client:build: dist/devtools-client-lib/custom-tab-view-Dyd-octV.js                                    0.70 kB │ gzip:     0.40 kB
+@vue/devtools-client:build: dist/devtools-client-lib/custom-inspector-tab-view-_iZHsuS5.js                          1.45 kB │ gzip:     0.74 kB
+@vue/devtools-client:build: dist/devtools-client-lib/diff-BxzP2J8R.js                                               2.58 kB │ gzip:     0.70 kB
+@vue/devtools-client:build: dist/devtools-client-lib/json-DxJze_jm.js                                               2.84 kB │ gzip:     0.79 kB
+@vue/devtools-client:build: dist/devtools-client-lib/SectionBlock-CPoodDlf.js                                       3.12 kB │ gzip:     1.16 kB
+@vue/devtools-client:build: dist/devtools-client-lib/timeline-Dn8N74dO.js                                           8.10 kB │ gzip:     2.47 kB
+@vue/devtools-client:build: dist/devtools-client-lib/vue-html-CBbEFYtW.js                                           8.54 kB │ gzip:     1.71 kB
+@vue/devtools-client:build: dist/devtools-client-lib/yaml-DaO7k5B1.js                                              10.52 kB │ gzip:     2.27 kB
+@vue/devtools-client:build: dist/devtools-client-lib/pages-DJb1lEmi.js                                             11.51 kB │ gzip:     3.44 kB
+@vue/devtools-client:build: dist/devtools-client-lib/settings-El94N4Ia.js                                          12.69 kB │ gzip:     3.18 kB
+@vue/devtools-client:build: dist/devtools-client-lib/vitesse-light-CcmG315c.js                                     13.62 kB │ gzip:     3.07 kB
+@vue/devtools-client:build: dist/devtools-client-lib/vitesse-dark-Cym-eLtO.js                                      13.77 kB │ gzip:     3.09 kB
+@vue/devtools-client:build: dist/devtools-client-lib/overview-C-J9SjCN.js                                          14.58 kB │ gzip:     4.56 kB
+@vue/devtools-client:build: dist/devtools-client-lib/vue-BEZF_Tsk.js                                               21.91 kB │ gzip:     2.90 kB
+@vue/devtools-client:build: dist/devtools-client-lib/vue-apis-C8_kYYSp.js                                          30.45 kB │ gzip:     3.58 kB
+@vue/devtools-client:build: dist/devtools-client-lib/assets-BfHs34Xx.js                                            35.50 kB │ gzip:     9.83 kB
+@vue/devtools-client:build: dist/devtools-client-lib/shellscript-InADTalH.js                                       41.49 kB │ gzip:     6.11 kB
+@vue/devtools-client:build: dist/devtools-client-lib/css-CECN5uSL.js                                               49.04 kB │ gzip:    11.87 kB
+@vue/devtools-client:build: dist/devtools-client-lib/html-7XVNRwN7.js                                              57.27 kB │ gzip:    11.77 kB
+@vue/devtools-client:build: dist/devtools-client-lib/javascript-Dp1Jmi5H.js                                       174.83 kB │ gzip:    16.61 kB
+@vue/devtools-client:build: dist/devtools-client-lib/typescript-mg6ATTE8.js                                       181.08 kB │ gzip:    16.12 kB
+@vue/devtools-client:build: dist/devtools-client-lib/graph-C9PLDlXp.js                                          1,871.52 kB │ gzip:   422.17 kB
+@vue/devtools-client:build: dist/devtools-client-lib/index-dsTczvai.js                                          3,982.11 kB │ gzip: 1,033.35 kB
+@vue/devtools-client:build: ✓ built in 4.04s
+@vue/devtools-chrome-extension:build: cache hit, replaying logs fbae0cb54e52c348
+@vue/devtools-chrome-extension:build: 
+@vue/devtools-chrome-extension:build: > @vue/devtools-chrome-extension@7.7.7 build <project>/.upstream/vue-devtools/packages/chrome-extension
+@vue/devtools-chrome-extension:build: > cross-env NODE_ENV=production tsdown
+@vue/devtools-chrome-extension:build: 
+@vue/devtools-chrome-extension:build: ℹ tsdown v0.21.2 powered by rolldown v1.0.0-rc.9
+@vue/devtools-chrome-extension:build: ℹ config file: <project>/.upstream/vue-devtools/packages/chrome-extension/tsdown.config.ts 
+@vue/devtools-chrome-extension:build: ℹ entry: src/user-app.ts
+@vue/devtools-chrome-extension:build: ℹ tsconfig: ../../tsconfig.json
+@vue/devtools-chrome-extension:build: ℹ entry: src/detector.ts
+@vue/devtools-chrome-extension:build: ℹ tsconfig: ../../tsconfig.json
+@vue/devtools-chrome-extension:build: ℹ entry: src/proxy.ts
+@vue/devtools-chrome-extension:build: ℹ tsconfig: ../../tsconfig.json
+@vue/devtools-chrome-extension:build: ℹ entry: src/prepare.ts
+@vue/devtools-chrome-extension:build: ℹ tsconfig: ../../tsconfig.json
+@vue/devtools-chrome-extension:build: ℹ entry: src/devtools-overlay.ts
+@vue/devtools-chrome-extension:build: ℹ tsconfig: ../../tsconfig.json
+@vue/devtools-chrome-extension:build: ℹ entry: src/background.ts, src/devtools-background.ts, src/devtools-panel.ts
+@vue/devtools-chrome-extension:build: ℹ tsconfig: ../../tsconfig.json
+@vue/devtools-chrome-extension:build: ℹ Build start
+@vue/devtools-chrome-extension:build: ℹ [IIFE] dist/detector.js  1.88 kB │ gzip: 0.52 kB
+@vue/devtools-chrome-extension:build: ℹ [IIFE] 1 files, total: 1.88 kB
+@vue/devtools-chrome-extension:build: ℹ [IIFE] dist/devtools-overlay.js  1.29 kB │ gzip: 0.59 kB
+@vue/devtools-chrome-extension:build: ℹ [IIFE] 1 files, total: 1.29 kB
+@vue/devtools-chrome-extension:build: ✔ Build complete in 17ms
+@vue/devtools-chrome-extension:build: ✔ Build complete in 18ms
+@vue/devtools-chrome-extension:build: ℹ Hint: consider adding deps.onlyBundle option to avoid unintended bundling of dependencies, or set deps.onlyBundle: false to disable this hint.
+@vue/devtools-chrome-extension:build: See more at https://tsdown.dev/options/dependencies#deps-onlybundle
+@vue/devtools-chrome-extension:build: Detected dependencies in bundle:
+@vue/devtools-chrome-extension:build: - rfdc
+@vue/devtools-chrome-extension:build: - perfect-debounce
+@vue/devtools-chrome-extension:build: - hookable
+@vue/devtools-chrome-extension:build: - speakingurl
+@vue/devtools-chrome-extension:build: ℹ Hint: consider adding deps.onlyBundle option to avoid unintended bundling of dependencies, or set deps.onlyBundle: false to disable this hint.
+@vue/devtools-chrome-extension:build: See more at https://tsdown.dev/options/dependencies#deps-onlybundle
+@vue/devtools-chrome-extension:build: Detected dependencies in bundle:
+@vue/devtools-chrome-extension:build: - birpc
+@vue/devtools-chrome-extension:build: - superjson
+@vue/devtools-chrome-extension:build: - is-what
+@vue/devtools-chrome-extension:build: - copy-anything
+@vue/devtools-chrome-extension:build: ℹ [IIFE] dist/proxy.js  40.42 kB │ gzip: 9.32 kB
+@vue/devtools-chrome-extension:build: ℹ [IIFE] 1 files, total: 40.42 kB
+@vue/devtools-chrome-extension:build: ✔ Build complete in 26ms
+@vue/devtools-chrome-extension:build: ℹ [IIFE] dist/prepare.js  133.58 kB │ gzip: 32.48 kB
+@vue/devtools-chrome-extension:build: ℹ [IIFE] 1 files, total: 133.58 kB
+@vue/devtools-chrome-extension:build: ✔ Build complete in 27ms
+@vue/devtools-chrome-extension:build: ℹ Hint: consider adding deps.onlyBundle option to avoid unintended bundling of dependencies, or set deps.onlyBundle: false to disable this hint.
+@vue/devtools-chrome-extension:build: See more at https://tsdown.dev/options/dependencies#deps-onlybundle
+@vue/devtools-chrome-extension:build: Detected dependencies in bundle:
+@vue/devtools-chrome-extension:build: - rfdc
+@vue/devtools-chrome-extension:build: - perfect-debounce
+@vue/devtools-chrome-extension:build: - hookable
+@vue/devtools-chrome-extension:build: - speakingurl
+@vue/devtools-chrome-extension:build: - birpc
+@vue/devtools-chrome-extension:build: - superjson
+@vue/devtools-chrome-extension:build: - is-what
+@vue/devtools-chrome-extension:build: - copy-anything
+@vue/devtools-chrome-extension:build: - @vue/shared
+@vue/devtools-chrome-extension:build: - entities
+@vue/devtools-chrome-extension:build: - @babel/parser
+@vue/devtools-chrome-extension:build: - estree-walker
+@vue/devtools-chrome-extension:build: - source-map-js
+@vue/devtools-chrome-extension:build: - @vue/compiler-core
+@vue/devtools-chrome-extension:build: - @vue/compiler-dom
+@vue/devtools-chrome-extension:build: - @vue/reactivity
+@vue/devtools-chrome-extension:build: - @vue/runtime-core
+@vue/devtools-chrome-extension:build: - @vue/runtime-dom
+@vue/devtools-chrome-extension:build: - vue
+@vue/devtools-chrome-extension:build: ℹ [IIFE] dist/user-app.js  197.17 kB │ gzip: 46.94 kB
+@vue/devtools-chrome-extension:build: ℹ [IIFE] 1 files, total: 197.17 kB
+@vue/devtools-chrome-extension:build: ✔ Build complete in 98ms
+@vue/devtools-chrome-extension:build: ℹ Hint: consider adding deps.onlyBundle option to avoid unintended bundling of dependencies, or set deps.onlyBundle: false to disable this hint.
+@vue/devtools-chrome-extension:build: See more at https://tsdown.dev/options/dependencies#deps-onlybundle
+@vue/devtools-chrome-extension:build: Detected dependencies in bundle:
+@vue/devtools-chrome-extension:build: - rfdc
+@vue/devtools-chrome-extension:build: - perfect-debounce
+@vue/devtools-chrome-extension:build: - hookable
+@vue/devtools-chrome-extension:build: - speakingurl
+@vue/devtools-chrome-extension:build: - birpc
+@vue/devtools-chrome-extension:build: - superjson
+@vue/devtools-chrome-extension:build: - is-what
+@vue/devtools-chrome-extension:build: - copy-anything
+@vue/devtools-chrome-extension:build: - @vue/shared
+@vue/devtools-chrome-extension:build: - entities
+@vue/devtools-chrome-extension:build: - @babel/parser
+@vue/devtools-chrome-extension:build: - estree-walker
+@vue/devtools-chrome-extension:build: - source-map-js
+@vue/devtools-chrome-extension:build: - @vue/compiler-core
+@vue/devtools-chrome-extension:build: - @vue/compiler-dom
+@vue/devtools-chrome-extension:build: - @vue/reactivity
+@vue/devtools-chrome-extension:build: - @vue/runtime-core
+@vue/devtools-chrome-extension:build: - @vue/runtime-dom
+@vue/devtools-chrome-extension:build: - vue
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/devtools-panel.js                                            4.08 MB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/background.js                                                7.16 kB │ gzip:  2.28 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/devtools-background.js                                       2.02 kB │ gzip:  0.93 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/graph-C9PLDlXp.js                                            1.73 MB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/typescript-mg6ATTE8.js                                     190.88 kB │ gzip: 16.79 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/javascript-Dp1Jmi5H.js                                     174.87 kB │ gzip: 16.64 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/html-7XVNRwN7.js                                            57.48 kB │ gzip: 11.91 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/css-CECN5uSL.js                                             49.23 kB │ gzip: 12.02 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/shellscript-InADTalH.js                                     41.53 kB │ gzip:  6.14 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/vue-apis-C8_kYYSp.js                                        33.55 kB │ gzip:  3.68 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/assets-BfHs34Xx.js                                          29.89 kB │ gzip:  9.58 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/vue-BEZF_Tsk.js                                             22.15 kB │ gzip:  3.01 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/vitesse-dark-Cym-eLtO.js                                    15.37 kB │ gzip:  3.19 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/vitesse-light-CcmG315c.js                                   15.22 kB │ gzip:  3.16 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/overview-C-J9SjCN.js                                        12.69 kB │ gzip:  4.53 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/yaml-DaO7k5B1.js                                            10.55 kB │ gzip:  2.30 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/settings-El94N4Ia.js                                         9.59 kB │ gzip:  3.08 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/pages-DJb1lEmi.js                                            9.22 kB │ gzip:  3.37 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/vue-html-CBbEFYtW.js                                         8.71 kB │ gzip:  1.80 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/timeline-Dn8N74dO.js                                         6.64 kB │ gzip:  2.44 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/json-DxJze_jm.js                                             3.40 kB │ gzip:  0.92 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/diff-BxzP2J8R.js                                             2.91 kB │ gzip:  0.75 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/SectionBlock-CPoodDlf.js                                     2.52 kB │ gzip:  1.17 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/custom-inspector-tab-view-_iZHsuS5.js                        1.38 kB │ gzip:  0.77 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/custom-tab-view-Dyd-octV.js                                  0.72 kB │ gzip:  0.45 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/IconTitle.vue_vue_type_script_setup_true_lang-B3gwnwUY.js    0.58 kB │ gzip:  0.41 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/components-DCaJttPK.js                                       0.54 kB │ gzip:  0.34 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/router-B5dcvlln.js                                           0.46 kB │ gzip:  0.34 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] dist/pinia-BSrNyeiS.js                                            0.26 kB │ gzip:  0.23 kB
+@vue/devtools-chrome-extension:build: ℹ [ESM] 29 files, total: 6.51 MB
+@vue/devtools-chrome-extension:build: ✔ Build complete in 445ms
+
+ Tasks:    7 successful, 7 total
+Cached:    7 cached, 7 total
+  Time:    184ms >>> FULL TURBO
+
+Built <project>/dist/extension

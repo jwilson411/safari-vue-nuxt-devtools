@@ -1,0 +1,37 @@
+
+> safari-vue-nuxt-devtools@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ Safari panel is created without page evaluation or permission-dependent discovery (0.87975ms)
+✔ package pins a real upstream commit and preserves license (0.178125ms)
+(node:99896) ExperimentalWarning: stripTypeScriptTypes is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Safari strict listener validation does not silently disconnect initial RPC channel (20.654084ms)
+✔ notice collector preserves hyphenated MIT license and NOTICE variants (2.786708ms)
+(node:99898) ExperimentalWarning: stripTypeScriptTypes is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ devtools-page owns eval and routes navigation only to its inspected tab (21.883583ms)
+✔ panel reload starts a fresh client only for its own bridge (1.884417ms)
+(node:99899) ExperimentalWarning: stripTypeScriptTypes is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ both RPC directions reject cross-origin and same-origin child frames, opaque origins and malformed protocol (0.385958ms)
+✔ detector projects only booleans, never lifecycle actions or arbitrary page data (0.327375ms)
+✔ actual adapted proxy and server channel listeners reject adversarial frames while preserving legitimate RPC (20.416583ms)
+✔ trusted lifecycle and session controls require main-frame host permission even after revocation (0.181542ms)
+✔ permission teardown only closes matching hosts and protocols, leaving unrelated allowed tabs live (0.431125ms)
+✔ tab-scoped bidirectional RPC preserves payloads and queues early handshake (1.173792ms)
+✔ multiple inspected tabs cannot cross-route (0.146625ms)
+✔ reload closes old pair and reconnects a fresh page (0.141084ms)
+✔ replaced port cannot tear down the new connection on delayed disconnect (0.074959ms)
+✔ unrelated ports and subframes are rejected (0.106708ms)
+✔ each message rechecks origin permission and fails closed on revocation (0.121583ms)
+✔ permission removal closes existing pairs and discards pending authorized replies (0.146125ms)
+✔ permission checks preserve message order and reject unavailable APIs (0.105708ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 72.682458

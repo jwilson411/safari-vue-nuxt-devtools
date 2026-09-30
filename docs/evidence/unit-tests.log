@@ -1,0 +1,29 @@
+
+> safari-vue-nuxt-devtools@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ Safari panel is created without page evaluation or permission-dependent discovery (0.88525ms)
+✔ package pins a real upstream commit and preserves license (0.16775ms)
+(node:66658) ExperimentalWarning: stripTypeScriptTypes is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Safari strict listener validation does not silently disconnect initial RPC channel (20.535209ms)
+(node:66659) ExperimentalWarning: stripTypeScriptTypes is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ devtools-page owns eval and routes navigation only to its inspected tab (21.282417ms)
+✔ panel reload starts a fresh client only for its own bridge (1.713083ms)
+✔ tab-scoped bidirectional RPC preserves payloads and queues early handshake (0.953875ms)
+✔ multiple inspected tabs cannot cross-route (0.424042ms)
+✔ reload closes old pair and reconnects a fresh page (0.137125ms)
+✔ replaced port cannot tear down the new connection on delayed disconnect (0.068292ms)
+✔ unrelated ports and subframes are rejected (0.045417ms)
+✔ each message rechecks origin permission and fails closed on revocation (0.080417ms)
+✔ permission removal closes existing pairs and discards pending authorized replies (0.070166ms)
+✔ permission checks preserve message order and reject unavailable APIs (0.07525ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 66.737333

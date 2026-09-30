@@ -1,0 +1,38 @@
+
+> safari-vue-nuxt-devtools@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ Safari panel is created without page evaluation or permission-dependent discovery (1.04ms)
+✔ package pins a real upstream commit and preserves license (0.206375ms)
+(node:7837) ExperimentalWarning: stripTypeScriptTypes is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Safari strict listener validation does not silently disconnect initial RPC channel (21.586958ms)
+✔ notice collector preserves hyphenated MIT license and NOTICE variants (3.05975ms)
+(node:7839) ExperimentalWarning: stripTypeScriptTypes is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ devtools-page owns eval and routes navigation only to its inspected tab (22.457875ms)
+✔ panel reload starts a fresh client only for its own bridge (1.855417ms)
+(node:7840) ExperimentalWarning: stripTypeScriptTypes is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ both RPC directions reject cross-origin and same-origin child frames, opaque origins and malformed protocol (0.404125ms)
+✔ detector projects only booleans, never lifecycle actions or arbitrary page data (0.339666ms)
+✔ revocation invalidates pending lifecycle permission replies without canceling unrelated hosts (0.296875ms)
+✔ actual adapted proxy and server channel listeners reject adversarial frames while preserving legitimate RPC (20.433958ms)
+✔ trusted lifecycle and session controls require main-frame host permission even after revocation (0.148167ms)
+✔ permission teardown only closes matching hosts and protocols, leaving unrelated allowed tabs live (0.668125ms)
+✔ tab-scoped bidirectional RPC preserves payloads and queues early handshake (1.1135ms)
+✔ multiple inspected tabs cannot cross-route (0.126208ms)
+✔ reload closes old pair and reconnects a fresh page (0.139042ms)
+✔ replaced port cannot tear down the new connection on delayed disconnect (0.069125ms)
+✔ unrelated ports and subframes are rejected (0.049042ms)
+✔ each message rechecks origin permission and fails closed on revocation (0.093708ms)
+✔ permission removal closes existing pairs and discards pending authorized replies (0.133958ms)
+✔ permission checks preserve message order and reject unavailable APIs (0.100208ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 75.387625
